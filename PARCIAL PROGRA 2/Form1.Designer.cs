@@ -41,7 +41,7 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnSalir.Location = new System.Drawing.Point(615, 31);
+            this.btnSalir.Location = new System.Drawing.Point(971, 34);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(144, 41);
             this.btnSalir.TabIndex = 0;
@@ -54,8 +54,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1127, 450);
             this.ControlBox = false;
             this.Controls.Add(this.btnSalir);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
