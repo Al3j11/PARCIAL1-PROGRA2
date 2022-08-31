@@ -47,14 +47,14 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.BackColor = System.Drawing.Color.Crimson;
-            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.LightCoral;
+            this.btnSalir.BackColor = System.Drawing.Color.Goldenrod;
+            this.btnSalir.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.btnSalir.FlatAppearance.BorderSize = 3;
-            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnSalir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkOrange;
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnSalir.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnSalir.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnSalir.Location = new System.Drawing.Point(-2, 704);
+            this.btnSalir.Location = new System.Drawing.Point(0, 671);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(200, 41);
             this.btnSalir.TabIndex = 8;
@@ -94,7 +94,7 @@
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLimpiar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnLimpiar.Location = new System.Drawing.Point(0, 632);
+            this.btnLimpiar.Location = new System.Drawing.Point(0, 577);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(200, 41);
             this.btnLimpiar.TabIndex = 7;
@@ -188,7 +188,7 @@
             this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiplicar.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMultiplicar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnMultiplicar.Location = new System.Drawing.Point(-1, 478);
+            this.btnMultiplicar.Location = new System.Drawing.Point(0, 513);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(200, 41);
             this.btnMultiplicar.TabIndex = 6;
@@ -204,7 +204,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnAgregar.Location = new System.Drawing.Point(-1, 418);
+            this.btnAgregar.Location = new System.Drawing.Point(0, 448);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(200, 41);
             this.btnAgregar.TabIndex = 5;
