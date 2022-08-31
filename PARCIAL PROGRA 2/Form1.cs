@@ -11,5 +11,15 @@ namespace PARCIAL_PROGRA_2
         {
             this.Close();
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            textFilasM1.Clear();
+            textColumnasM1.Clear();
+            textFilasM2.Clear();
+            textColumnasM2.Clear();
+            textFilasM1.Focus();
+        }
+
     }
 }
