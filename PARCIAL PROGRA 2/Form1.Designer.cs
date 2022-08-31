@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PARCIAL1));
             this.btnSalir = new System.Windows.Forms.Button();
             this.panelMenu = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.textColumnasM2 = new System.Windows.Forms.TextBox();
             this.textFilasM2 = new System.Windows.Forms.TextBox();
             this.textColumnasM1 = new System.Windows.Forms.TextBox();
             this.textFilasM1 = new System.Windows.Forms.TextBox();
             this.btnMultiplicar = new System.Windows.Forms.Button();
             this.btnAgregar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.panelMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +56,7 @@
             this.btnSalir.Location = new System.Drawing.Point(-2, 704);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(200, 41);
-            this.btnSalir.TabIndex = 0;
+            this.btnSalir.TabIndex = 7;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = false;
             this.btnSalir.Click += new System.EventHandler(this.button1_Click);
@@ -83,33 +83,77 @@
             this.panelMenu.Size = new System.Drawing.Size(200, 788);
             this.panelMenu.TabIndex = 1;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.Location = new System.Drawing.Point(40, 270);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(123, 28);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "COLUMNAS";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label3.Location = new System.Drawing.Point(71, 213);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 28);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "FILAS";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(40, 86);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 28);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "COLUMNAS";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(71, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 28);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "FILAS";
+            // 
             // textColumnasM2
             // 
             this.textColumnasM2.Location = new System.Drawing.Point(-2, 301);
             this.textColumnasM2.Name = "textColumnasM2";
             this.textColumnasM2.Size = new System.Drawing.Size(201, 23);
-            this.textColumnasM2.TabIndex = 5;
+            this.textColumnasM2.TabIndex = 4;
             // 
             // textFilasM2
             // 
             this.textFilasM2.Location = new System.Drawing.Point(-1, 244);
             this.textFilasM2.Name = "textFilasM2";
             this.textFilasM2.Size = new System.Drawing.Size(201, 23);
-            this.textFilasM2.TabIndex = 4;
+            this.textFilasM2.TabIndex = 3;
             // 
             // textColumnasM1
             // 
             this.textColumnasM1.Location = new System.Drawing.Point(-1, 117);
             this.textColumnasM1.Name = "textColumnasM1";
             this.textColumnasM1.Size = new System.Drawing.Size(201, 23);
-            this.textColumnasM1.TabIndex = 3;
+            this.textColumnasM1.TabIndex = 1;
             // 
             // textFilasM1
             // 
             this.textFilasM1.Location = new System.Drawing.Point(-1, 56);
             this.textFilasM1.Name = "textFilasM1";
             this.textFilasM1.Size = new System.Drawing.Size(201, 23);
-            this.textFilasM1.TabIndex = 2;
+            this.textFilasM1.TabIndex = 0;
             // 
             // btnMultiplicar
             // 
@@ -123,7 +167,7 @@
             this.btnMultiplicar.Location = new System.Drawing.Point(-1, 449);
             this.btnMultiplicar.Name = "btnMultiplicar";
             this.btnMultiplicar.Size = new System.Drawing.Size(200, 41);
-            this.btnMultiplicar.TabIndex = 2;
+            this.btnMultiplicar.TabIndex = 6;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
             // 
@@ -139,53 +183,9 @@
             this.btnAgregar.Location = new System.Drawing.Point(-1, 374);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(200, 41);
-            this.btnAgregar.TabIndex = 1;
+            this.btnAgregar.TabIndex = 5;
             this.btnAgregar.Text = "AGREGAR";
             this.btnAgregar.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(71, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 28);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "FILAS";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(40, 86);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 28);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "COLUMNAS";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(71, 213);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 28);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "FILAS";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(40, 270);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 28);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "COLUMNAS";
             // 
             // PARCIAL1
             // 
