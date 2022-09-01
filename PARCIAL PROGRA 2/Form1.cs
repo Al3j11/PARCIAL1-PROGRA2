@@ -23,8 +23,8 @@ namespace PARCIAL_PROGRA_2
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            btnAgregar.Bottom.ToString();
-            btnAgregar.Enabled = false;
+            
+          
 
             int filas = Convert.ToInt32(textFilasM1.Text);
             int columnas = Convert.ToInt32(textColumnasM1.Text);
