@@ -23,9 +23,12 @@ namespace PARCIAL_PROGRA_2
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            
-          
 
+            if ((textFilasM1.Text.Trim() == "") || (textColumnasM1.Text.Trim() == "")|| (textColumnasM2.Text.Trim() == "")|| (textFilasM2.Text.Trim() == ""))
+            {
+                MessageBox.Show("Campos vacios", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
+            else { 
             int filas = Convert.ToInt32(textFilasM1.Text);
             int columnas = Convert.ToInt32(textColumnasM1.Text);
             int filasB = Convert.ToInt32(textFilasM2.Text);
@@ -54,15 +57,16 @@ namespace PARCIAL_PROGRA_2
             }
             for (int x = 0; x < filasB; x++)
             {
-                for (int y = 0; y < columnasB; y++)
-                {
-                    textBoxesB[x, y] = new TextBox();
-                    textBoxesB[x, y].Text = "";
-                    textBoxesB[x, y].Width = 50;
-                    textBoxesB[x, y].Location = new Point(100 + 100 * (columnas + 2) + 100 * y, 150 + 50 * (filas + 2) + 50 * x);
-                    textBoxesB[x, y].TabIndex = 100 + x + 2 * y;
+                    for (int y = 0; y < columnasB; y++)
+                    {
+                        textBoxesB[x, y] = new TextBox();
+                        textBoxesB[x, y].Text = "";
+                        textBoxesB[x, y].Width = 50;
+                        textBoxesB[x, y].Location = new Point(100 + 100 * (columnas + 2) + 100 * y, 150 + 50 * (filas + 2) + 50 * x);
+                        textBoxesB[x, y].TabIndex = 100 + x + 2 * y;
 
-                    Controls.Add(textBoxesB[x, y]);
+                        Controls.Add(textBoxesB[x, y]);
+                    }
 
                 }
             }
