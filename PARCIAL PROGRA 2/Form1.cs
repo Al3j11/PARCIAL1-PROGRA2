@@ -29,6 +29,7 @@ namespace PARCIAL_PROGRA_2
                 MessageBox.Show("Campos vacios", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
             else { 
+
             int filas = Convert.ToInt32(textFilasM1.Text);
             int columnas = Convert.ToInt32(textColumnasM1.Text);
             int filasB = Convert.ToInt32(textFilasM2.Text);
