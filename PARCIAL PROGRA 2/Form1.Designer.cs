@@ -204,7 +204,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnAgregar.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.btnAgregar.Location = new System.Drawing.Point(0, 448);
+            this.btnAgregar.Location = new System.Drawing.Point(0, 447);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(200, 41);
             this.btnAgregar.TabIndex = 5;
