@@ -80,9 +80,9 @@
             this.panelMenu.Controls.Add(this.btnAgregar);
             this.panelMenu.Controls.Add(this.btnSalir);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelMenu.Location = new System.Drawing.Point(1186, 0);
+            this.panelMenu.Location = new System.Drawing.Point(1720, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 788);
+            this.panelMenu.Size = new System.Drawing.Size(200, 1080);
             this.panelMenu.TabIndex = 1;
             // 
             // btnLimpiar
@@ -194,6 +194,7 @@
             this.btnMultiplicar.TabIndex = 6;
             this.btnMultiplicar.Text = "MULTIPLICAR";
             this.btnMultiplicar.UseVisualStyleBackColor = false;
+            this.btnMultiplicar.Click += new System.EventHandler(this.btnMultiplicar_Click);
             // 
             // btnAgregar
             // 
@@ -218,13 +219,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1386, 788);
+            this.ClientSize = new System.Drawing.Size(1920, 1080);
             this.ControlBox = false;
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PARCIAL1";
             this.Text = "PARCIAL1-MATRICES";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.PARCIAL1_Load);
             this.panelMenu.ResumeLayout(false);
             this.panelMenu.PerformLayout();
             this.ResumeLayout(false);
