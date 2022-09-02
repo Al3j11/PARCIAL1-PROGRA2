@@ -1,0 +1,18 @@
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\bin\Debug\net6.0-windows\PARCIAL PROGRA 2.exe
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\bin\Debug\net6.0-windows\PARCIAL PROGRA 2.deps.json
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\bin\Debug\net6.0-windows\PARCIAL PROGRA 2.runtimeconfig.json
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\bin\Debug\net6.0-windows\PARCIAL PROGRA 2.dll
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\bin\Debug\net6.0-windows\PARCIAL PROGRA 2.pdb
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.csproj.AssemblyReference.cache
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL_PROGRA_2.PARCIAL1.resources
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL_PROGRA_2.Properties.Resources.resources
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.csproj.GenerateResource.cache
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.AssemblyInfoInputs.cache
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.AssemblyInfo.cs
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.csproj.CoreCompileInputs.cache
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.dll
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\refint\PARCIAL PROGRA 2.dll
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.pdb
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\PARCIAL PROGRA 2.genruntimeconfig.cache
+C:\Users\elvis\Source\Repos\PARCIAL1-PROGRAM\PARCIAL PROGRA 2\obj\Debug\net6.0-windows\ref\PARCIAL PROGRA 2.dll
