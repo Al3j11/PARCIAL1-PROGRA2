@@ -80,9 +80,9 @@
             this.panelMenu.Controls.Add(this.btnAgregar);
             this.panelMenu.Controls.Add(this.btnSalir);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelMenu.Location = new System.Drawing.Point(1720, 0);
+            this.panelMenu.Location = new System.Drawing.Point(1166, 0);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(200, 1080);
+            this.panelMenu.Size = new System.Drawing.Size(200, 1044);
             this.panelMenu.TabIndex = 1;
             // 
             // btnLimpiar
@@ -219,7 +219,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.ClientSize = new System.Drawing.Size(1366, 1044);
             this.ControlBox = false;
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
